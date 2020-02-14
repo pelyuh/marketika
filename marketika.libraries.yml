@@ -1,0 +1,12 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/bootstrap-4.4.1-dist/bootstrap.min.css: { minified: true }
+      css/style.css: {}
+      css/print.css: { media: print }
+  js:
+    js/bootstrap-4.4.1-dist/bootstrap.min.js: { minified: true }
+    js/custom.js: {}
+  dependencies:
+    - core/jquery

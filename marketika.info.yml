@@ -1,0 +1,11 @@
+name: Marketika
+type: theme
+base theme: stable
+description: Marketika Drupal 8 theme.
+core: 8.x
+libraries:
+  - marketika/global-styling
+regions:
+  header: Header
+  content: Contents
+  footer: Footer
